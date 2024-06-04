@@ -1,9 +1,13 @@
-# Delete Content
+
 
 ![banner](/images/githubHeader.png)
-
+# Delete Content for VS Code
 This extension allows to right click inside any file or on the file tree and delete the content but not the file itself.
 
+
+# Official website
+See other interfaces at the official website.
+-  [Serendipity](https://www.michaelandreuzza.com/vscode/delete-on-right-click/)
 
 # Installation
 
