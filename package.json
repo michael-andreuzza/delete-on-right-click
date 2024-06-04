@@ -6,16 +6,16 @@
   "publisher": "wicked-labs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Serendipity-Theme/vs-code.git"
+    "url": "https://github.com/michael-andreuzza/delete-on-right-click"
   },
   "bugs": {
-    "url": "https://github.com/Serendipity-Theme/vs-code.git",
+    "url": "https://github.com/michael-andreuzza/delete-on-right-click",
     "email": "michael@andreuzza.com"
   },
   "homepage": "https://www.michaelandreuzza.com/vscode/delete-on-right-click/",
-  "icon": "logo/theme-icon.png",
+  "icon": "logo/icon.png",
   "galleryBanner": {
-    "color": "#ffffff",
+    "color": "#fafafa",
     "theme": "light"
   },
   "engines": {

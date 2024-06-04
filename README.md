@@ -1,1 +1,3 @@
-# delete-on-right-click
+# Delete Content
+
+![banner](/images/githubHeader.png)
