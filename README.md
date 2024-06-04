@@ -16,5 +16,8 @@ See other interfaces at the official website.
 3. Click **Install** to install it.
 
 
+**Known issues** — For any reason is not allowing me to delete content in bulk when selection files, it will delete only the content of one of the files.
+
+
 Delete on right click created by [Micheal Andreuzza](https://github.com/michael-andreuzza).
 [Twitter](https://twitter.com/Mike_Andreuzza)
