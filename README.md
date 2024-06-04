@@ -1,6 +1,7 @@
 
 
 ![banner](/images/githubHeader.png)
+![banner](/images/preview.gif)
 # Delete Content for VS Code
 This extension allows to right click inside any file or on the file tree and delete the content but not the file itself.
 
