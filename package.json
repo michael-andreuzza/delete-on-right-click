@@ -2,7 +2,7 @@
   "name": "delete-content",
   "displayName": "Delete content on right click",
   "description": "Delete the file content on right click, individually or in bulk",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "wicked-labs",
   "repository": {
     "type": "git",
