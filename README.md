@@ -6,7 +6,7 @@ This extension allows to right click inside any file or on the file tree and del
 
 
 # Official website
-See other interfaces at the official website.
+
 -  [Delete content](https://www.michaelandreuzza.com/vscode/delete-on-right-click/)
 
 # Installation
