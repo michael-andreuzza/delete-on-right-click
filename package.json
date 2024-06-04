@@ -1,0 +1,80 @@
+{
+  "name": "delete-content",
+  "displayName": "Delete content on right click",
+  "description": "Delete the file content on right click, individually or in bulk",
+  "version": "0.0.1",
+  "publisher": "wicked-labs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Serendipity-Theme/vs-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Serendipity-Theme/vs-code.git",
+    "email": "michael@andreuzza.com"
+  },
+  "homepage": "https://www.michaelandreuzza.com/vscode/delete-on-right-click/",
+  "icon": "logo/theme-icon.png",
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
+  },
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "productivity",
+    "delete",
+    "clean",
+    "clean up"
+  ],
+  "activationEvents": [
+    "onCommand:delete-content.deleteContent",
+    "onCommand:delete-content.deleteFileContent"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "delete-content.deleteContent",
+        "title": "Delete Content"
+      },
+      {
+        "command": "delete-content.deleteFileContent",
+        "title": "Delete Content"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "delete-content.deleteContent",
+          "when": "editorTextFocus",
+          "group": "navigation"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "delete-content.deleteFileContent",
+          "when": "resourceLangId != markdown",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.89.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}
